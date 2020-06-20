@@ -39,16 +39,16 @@ span {
 }
 
 .project-one {
-  background: #28c7fa;
+  background: #5f5e5ed2;
 }
 .project-two {
-  background: #775ada;
+  background: #5f5e5ed2;
 }
 .project-three {
-  background: #002651;
+  background: #5f5e5ed2;
 }
 .project-four {
-  background: #ff304f;
+  background: #5f5e5ed2;
 }
 
 .project-img {
@@ -60,7 +60,7 @@ span {
 .project-overlay {
   z-index: 1;
   position: relative;
-  background: rgba(255, 69, 0, 0.6);
+  background: rgba(31, 30, 30, 0.6);
   grid-column: 1/2;
   grid-row: 1/2;
   display: flex;
