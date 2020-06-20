@@ -1,0 +1,32 @@
+#main-nav {
+  display: flex;
+  padding-top: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#main-nav ul {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+#main-nav li {
+  padding: 1rem 1.5rem;
+}
+
+#main-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+}
+
+#main-nav a:hover {
+  border-color: #775ada;
+}
+
+#main-nav a.current {
+  border-color: #775ada;
+}

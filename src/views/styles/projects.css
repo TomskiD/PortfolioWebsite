@@ -1,0 +1,46 @@
+.header-projects {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .header-projects h1 {
+    margin: 50px 0;
+    font-family: "Source Code Pro", monospace;
+    font-size: 5rem;
+    text-transform: uppercase;
+  }
+  
+  span {
+    color: #28c7fa;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 400px 400px;
+    grid-gap: 100px;
+  }
+  
+  .project {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    overflow: hidden;
+  }
+  
+  .project-one {
+    background: #28c7fa;
+  }
+  .project-two {
+    background: #775ada;
+  }
+  .project-three {
+    background: #002651;
+  }
+  .project-four {
+    background: #ff304f;
+  }
+  
