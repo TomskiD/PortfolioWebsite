@@ -1,5 +1,6 @@
 import React from "react";
-import { Project } from "../components/Project";
+// import { Project } from "../components/Project";
+import { Modal } from "../components/UI/Modal";
 import "./styles/projects.css";
 
 export const Projects = () => {
@@ -9,18 +10,10 @@ export const Projects = () => {
         My <span>projects</span>
       </h1>
       <div className="projects">
-        <a href="s" className="project project-one">
-          <Project title={"Przykladowy tytul"} text={"lorem ipsum"} />
-        </a>
-        <a href="s" className="project project-two">
-          <Project title={"Przykladowy tytul"} text={"lorem ipsum"} />
-        </a>
-        <a href="s" className="project project-three">
-          <Project title={"Przykladowy tytul"} text={"lorem ipsum"} />
-        </a>
-        <a href="s" className="project project-four">
-          <Project title={"Przykladowy tytul"} text={"lorem ipsum"} />
-        </a>
+        <Modal projectName='pokedex'/>
+        <Modal projectName='pokedex'/>
+        <Modal projectName='pokedex'/>
+        <Modal projectName='pokedex'/>
       </div>
     </div>
   );
