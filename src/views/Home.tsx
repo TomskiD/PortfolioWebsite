@@ -19,7 +19,7 @@ export const Home = () => {
           facere eaque optio sint esse!
         </p>
         <Link to="/projects">
-          <Button text="See projects" />
+          <Button text="See projects"/>
         </Link>
       </div>
     </div>
