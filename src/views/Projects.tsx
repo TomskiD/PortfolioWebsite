@@ -1,9 +1,23 @@
-import React from "react";
-// import { Project } from "../components/Project";
+import React, { useState, useEffect } from "react";
 import { Modal } from "../components/UI/Modal";
-import "./styles/projects.css";
+import firebase from "../firebase";
 
 export const Projects = () => {
+
+  const [project, setProject] = useState<any>([]);
+
+  useEffect(() => {
+    firebase
+      .firestore()
+      .collection("Projects")
+      .onSnapshot((snapshot) => {
+        const newProjects = snapshot.docs.map((doc) =>({
+          id:doc.id,
+          ...doc.data()      }))
+          setProject(newProjects);
+      });
+  }, []);
+  
   return (
     <div className="header-projects">
       <h1>
@@ -11,9 +25,7 @@ export const Projects = () => {
       </h1>
       <div className="projects">
         <Modal projectName='pokedex'/>
-        <Modal projectName='pokedex'/>
-        <Modal projectName='pokedex'/>
-        <Modal projectName='pokedex'/>
+
       </div>
     </div>
   );
