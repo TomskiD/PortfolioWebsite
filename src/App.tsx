@@ -1,13 +1,13 @@
 import * as React from "react";
-import {Button} from './components/Button'
+import { Home } from "./views/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-
-const App: React.FC = () => {
+export const App: React.FC = () => {
   return (
-    <div className="App">
-      <Button text='See projects'/>
-    </div>
+    <Router>
+      <div className="App">
+        <Home />
+      </div>
+    </Router>
   );
 };
-
-export default App;
