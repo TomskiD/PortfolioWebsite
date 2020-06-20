@@ -9,16 +9,16 @@ export const Projects = () => {
         My <span>projects</span>
       </h1>
       <div className="projects">
-        <a href="" className="project project-one">
+        <a href="s" className="project project-one">
           <Project title={"Przykladowy tytul"} text={"lorem ipsum"} />
         </a>
-        <a href="" className="project project-two">
+        <a href="s" className="project project-two">
           <Project title={"Przykladowy tytul"} text={"lorem ipsum"} />
         </a>
-        <a href="" className="project project-three">
+        <a href="s" className="project project-three">
           <Project title={"Przykladowy tytul"} text={"lorem ipsum"} />
         </a>
-        <a href="" className="project project-four">
+        <a href="s" className="project project-four">
           <Project title={"Przykladowy tytul"} text={"lorem ipsum"} />
         </a>
       </div>
