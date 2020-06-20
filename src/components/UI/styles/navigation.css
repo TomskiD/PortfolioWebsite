@@ -8,10 +8,12 @@
 #main-nav ul {
   display: flex;
   font-size: 1.5rem;
+  list-style-type: none;
 }
 
 #main-nav li {
   padding: 1rem 1.5rem;
+  
 }
 
 #main-nav a {
