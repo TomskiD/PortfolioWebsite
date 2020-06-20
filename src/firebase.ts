@@ -13,3 +13,6 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+
+
+  export default firebase;
