@@ -27,7 +27,9 @@ export const Modal = (prop: ModalProps) => {
             <div className="modal-technology">
               <h2>Technologies</h2>
               <ul className="modal-list-technology">
-              {prop.technologies.map((tech,index) => (<li key={index}>  {tech}  </li>))}
+                {prop.technologies.map((tech, index) => (
+                  <li key={index}> {tech} </li>
+                ))}
               </ul>
             </div>
             <div className="modal-text">
