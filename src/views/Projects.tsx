@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Modal } from "../components/UI/Modal";
 import firebase from "../firebase";
+import './styles/projects.css'
 
 export const Projects = () => {
   const [project, setProject] = useState<any>([]);
