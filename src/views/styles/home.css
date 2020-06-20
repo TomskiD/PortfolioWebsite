@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo|Spicy+Rice&display=swap");
+
+.header-content {
+  text-align: center;
+  padding-top: 30%;
+  color: #fff;
+}
+
+.header-content h1 {
+  font-family: "Spicy Rice", cursive;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.lead {
+  font-family: "Heebo", sans-serif;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.surname {
+  color: #28c7fa;
+}
+
+body {
+  color: #28c7fa;
+  color: #775ada;
+  color: #002651;
+  color: #ff304f;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
