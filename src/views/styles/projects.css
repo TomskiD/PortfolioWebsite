@@ -29,26 +29,13 @@ span {
 }
 
 .project {
+  background: #f3f3;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   text-decoration: none;
-  color: #fff;
   font-family: sans-serif;
   overflow: hidden;
-}
-
-.project-one {
-  background: #28c7fa;
-}
-.project-two {
-  background: #775ada;
-}
-.project-three {
-  background: #002651;
-}
-.project-four {
-  background: #ff304f;
 }
 
 .project-img {

@@ -7,7 +7,7 @@ interface ButtonProps  {
 
 export const Button = (prop:ButtonProps) => {
     return(
-        <button>
+        <button className='primary-button'>
             {prop.text}
         </button>
     )
